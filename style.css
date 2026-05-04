@@ -33,7 +33,11 @@ nav a {
 
 .hero {
     text-align: center;
-    padding: 80px 20px;
+    padding: 120px 20px;
+    background-image: url("immune-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 
 .hero h1 {
