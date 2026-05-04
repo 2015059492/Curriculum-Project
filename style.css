@@ -104,3 +104,6 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+.hero .btn {
+    display: inline-block;
+}
