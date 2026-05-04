@@ -46,8 +46,10 @@ nav a {
 
 .btn {
     display: inline-block;
+    width: auto;              /* THIS fixes the stretching */
+    max-width: fit-content;   /* extra safety */
     margin-top: 20px;
-    padding: 12px 20px;
+    padding: 12px 25px;
     background-color: #008cba;
     color: white;
     border-radius: 6px;
