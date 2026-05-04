@@ -56,3 +56,18 @@ footer {
     text-align: center;
     padding: 15px;
 }
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content h2 {
+    margin-top: 25px;
+}
