@@ -116,3 +116,10 @@ body {
 .hero .btn {
     display: inline-block;
 }
+.resource-card {
+    background: #f4fbff;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #008cba;
+    border-radius: 8px;
+}
