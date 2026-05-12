@@ -32,21 +32,49 @@ nav a {
 }
 
 .hero {
-    text-align: center;
-    padding: 120px 20px;
-    background-image: url("immunity-bg.png");
+    background:
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+        url("background-image.png");
+
     background-size: cover;
     background-position: center;
-    color: white;
+
+    min-height: 80vh;
 
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    position: relative;
+    text-align: center;
+    color: white;
+
+    padding: 20px;
 }
 
+.overlay {
+    max-width: 900px;
+}
+
+.hero h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #008cba;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
 .hero h1 {
     font-size: 36px;
 }
