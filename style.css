@@ -212,3 +212,7 @@ body {
     border-radius: 10px;
 }
     
+.pdf-container iframe {
+    border: none;
+    display: block;
+}
