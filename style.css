@@ -212,7 +212,22 @@ body {
     border-radius: 10px;
 }
     
-.pdf-container iframe {
-    border: none;
-    display: block;
+.document-container {
+    max-width: 850px;
+    margin: 40px auto;
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    line-height: 1.6;
+}
+
+.document-container h1 {
+    text-align: center;
+}
+
+.document-container h2 {
+    border-bottom: 2px solid #008cba;
+    padding-bottom: 5px;
+    margin-top: 30px;
 }
